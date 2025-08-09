@@ -1,0 +1,31 @@
+# Ignore datasets
+data/
+datasets/
+*.zip
+*.tar.gz
+*.tgz
+
+# Model weights / checkpoints
+*.h5
+*.keras
+*.tflite
+*.ckpt
+checkpoint/
+checkpoints/
+saved_model/
+
+# Colab temporary files
+*.ipynb_checkpoints
+*.swp
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Google Drive mount (just in case)
+drive/
+
+# Jupyter / Colab generated files
+.ipynb_checkpoints/
